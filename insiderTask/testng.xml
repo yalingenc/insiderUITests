@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="imdb Test Suite">
+    <test name="The Circus">
+        <classes>
+            <class name="testCases.HomePageTests"></class>
+            <class name="testCases.CareersPageTests"></class>
+            <class name="testCases.OpenPositionsTest"></class>
+        </classes>
+    </test>
+</suite>
